@@ -8,71 +8,90 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 </head>
 
 <body>
-    <section class="header p-5">
-        <div class="header__head container">
+    <section class="header">
+        <div class="header__head container-fluid">
             <div class="row">
-                <div class="header__head--name col-md-4 d-flex justify-content-start">
-                    Kanika Batra
+                <div class="header__head--name col-md-4 d-flex justify-content-center">
+                    <a href="#" class="header__head--name-text">Kanika Batra</a>
                 </div>
                 <div class="header__head--menu col-md-8 d-flex justify-content-around">
-                    <div class="header__head--menu-work header__head--menu-item">Work</div>
-                    <div class="header__head--menu-experience header__head--menu-item">Experience</div>
-                    <div class="header__head--menu-resume header__head--menu-item">Download Resume</div>
-                    <div class="header__head--menu-contact header__head--menu-item">Contact</div>
+                    <div class="header__head--menu-work header__head--menu-item">
+                        <a href="#" class="header__head--menu-menu-item-text">Work</a></div>
+                    <div class="header__head--menu-experience header__head--menu-item"><a href="#"
+                            class="header__head--menu-menu-item-text">Experience</a></div>
+                    <div class="header__head--menu-resume header__head--menu-item"><a href="#"
+                            class="header__head--menu-menu-item-text">Download Resume</a></div>
+                    <div class="header__head--menu-contact header__head--menu-item"><a href="#"
+                            class="header__head--menu-menu-item-text">Contact</a></div>
                 </div>
             </div>
 
         </div>
     </section>
-    <section class="content p-5">
-        <div class="content__landpage container section-content-1">
-            <div class="content__landpage--hello d-flex justify-content-center">
-                Hello.
+    <section class="content">
+        <div class="content__landpage container-fluid">
+            <div data-aos="fade-in" data-aos-duration="2000"
+                class="content__landpage--hello d-flex justify-content-around">
+                <h1 class="content__landpage--hello-text"> <span class="content__landpage--hello-text-H">H</span>E<span
+                        class="content__landpage--hello-text-LL">LL</span>O<span
+                        class="content__landpage--hello-text-dot">.</span></h1>
             </div>
         </div>
-        <div class="content__hero container section-content-2">
+        <div class="content__hero container-fluid section-content-1 ">
             <div class="content__hero--img col-md-12 d-flex justify-content-center"><img src="./unnamed.jpg" alt="">
             </div>
             <div class="content__hero--name col-md-12 d-flex justify-content-center">Lorem ipsum dolor sit amet.</div>
         </div>
-        <div class="content__skills container section-content-1">
+        <div class="content__skills container-fluid section-content-2">
             <div class="row">
-                <div class="content__experience--title col-md-4 d-flex justify-content-center">
-                    Skills
+                <div class="content__skills--title col-md-4 d-flex justify-content-center ">
+                    <h1 class="content__skills--title-text">Work</h1>
                 </div>
-                <div class="content__experience--data col-md-8 d-flex justify-content-center">
-                    Skill Section
+                <div class="content__skills--data col-md-8 d-flex justify-content-center">
+                    --
                 </div>
             </div>
         </div>
-        <div class="content__experience container section-content-2">
+        <div class="content__experience container-fluid section-content-1">
             <div class="row d-flex flex-row-reverse">
                 <div class="content__experience--title col-md-4 d-flex justify-content-center">
-                    Experience
+                    <h1 class="content__skills--title-text">Experience</h1>
                 </div>
                 <div class="content__experience--data col-md-8 d-flex justify-content-center">
-                    Experience section
+                    --
                 </div>
             </div>
         </div>
-        <div class="content__work container section-content-1 ">
+        <div class="content__work container-fluid section-content-2 ">
             <div class="content__work--title col-md-12 d-flex justify-content-center">
-                Work
+                <h1 class="content__skills--title-text">Work</h1>
             </div>
-            <div class="content__work--data col-md-12 d-flex justify-content-center">Work section</div>
+            <div class="content__work--data col-md-12 d-flex justify-content-center">--</div>
         </div>
-        <div class="content__contact container section-content-2">
+        <div class="content__contact container-fluid section-content-1">
             <div class="row">
-                <div class="content__contact--title col-md-4 d-flex justify-content-center">Hire me</div>
-                <div class="content__contact--data col-md-8 d-flex justify-content-center">Contact Data</div>
+                <div class="content__contact--title col-md-4 d-flex justify-content-center">
+                    <h1 class="content__skills--title-text">Hire me </h1>
+                </div>
+                <div class="content__contact--data col-md-8 d-flex justify-content-center">--</div>
             </div>
         </div>
     </section>
-    <section class="footer p-5">
-        <div class="footer__foot container">
+    <section class="footer ">
+        <div class="footer__foot container-fluid">
             <div class="footer__foot-main col-md-12">
                 <div class="row">
                     <div class="footer__foot--name col-md-6 d-flex justify-content-start">Kanika Batra</div>
@@ -90,6 +109,10 @@
 
         </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
