@@ -1,18 +1,22 @@
 body {
     /* background-color: #F6ECF0; */
     font-family: 'Lato', sans-serif;
-    background-color: #F4F4F4;
+    background-color: #222222;
 }
 
 
 .header,
 .footer {
     /* border: 1px solid black; */
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
+
 .header {
-    background-color: #F4F4F4;
+    background-color: #222222;
+    position: sticky;
+    z-index: 1;
+    top: 0;
     /* border-bottom: 10px solid #DE8971; */
     /* border-style: none none dashed none; */
 }
@@ -21,48 +25,53 @@ body {
 .header__head--menu-menu-item-text {
     font-size: 20px;
     font-weight: 600;
-    color: #D49A89;
+    color: #EDEDED;
     transition: .3s;
 }
 
 .header__head--name-text:hover,
 .header__head--menu-menu-item-text:hover {
     /* font-size: 22px; */
-    color: #557571;
+    color: #DA0037;
     text-decoration: none;
     /* font-weight: 800; */
 }
 
 .section-content-1 {
-    background-color: #F4F4F4;
+    background-color: #222222;
 }
 
 .section-content-2 {
-    background-color: #F4F4F4;
+    background-color: #222222;
 }
 
 .content__landpage {
-    position: relative;
+    /* position: relative; */
     /* animation: hello .5s ease-in 3s infinite alternate; */
-    background-color: #F4F4F4;
-    padding: 150px;
-    color: #557571;
+    /* background-size: cover; */
+    background-color: #222222;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 150px; */
+    color: #EDEDED;
     user-select: none;
 }
 
 
 .content__landpage--hello-text-H {
-    border-top: 30px solid #D49A89;
+    border-top: 30px solid #DA0037;
     border-style: dotted none none none;
 }
 
 .content__landpage--hello-text-LL {
-    border-bottom: 30px solid #D49A89;
+    border-bottom: 30px solid #DA0037;
     border-style: none none dotted none;
 }
 
 .content__landpage--hello-text-dot {
-    color: #D49A89;
+    color: #DA0037;
     /* border-bottom: 30px solid #DE8971; */
     /* border-style: none none dotted none; */
 }
@@ -74,5 +83,5 @@ body {
 }
 
 .footer {
-    background-color: #F4F4F4;
+    background-color: #222222;
 }
